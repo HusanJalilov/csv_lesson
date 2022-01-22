@@ -1,8 +1,8 @@
 
 def get_column(data):
-    column_name = [data]
-    column_name=column_name[0]
-    column_name=column_name[:31].split(",")
+    column_name = [data].split("/n")
+    column_name=column_name[].split(",")
+    
     
     return column_name
 
